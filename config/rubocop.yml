@@ -26,8 +26,9 @@ Lint/UnusedBlockArgument:
 Lint/UnusedMethodArgument:
   Enabled: false
 
+# If AbcSize > 50, really really really really really really really complex
 Metrics/AbcSize:
-  Enabled: false
+  Max: 50
 Metrics/BlockNesting:
   Enabled: false
 Metrics/ClassLength:
