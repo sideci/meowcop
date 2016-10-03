@@ -29,22 +29,27 @@ Lint/UnusedMethodArgument:
 # If AbcSize > 50, really really really really really really really complex
 Metrics/AbcSize:
   Max: 50
+# Use the default setting
 Metrics/BlockNesting:
-  Enabled: false
+  Enabled: true
 Metrics/ClassLength:
   Enabled: false
 Metrics/CyclomaticComplexity:
-  Enabled: false
+  Max: 10
 Metrics/LineLength:
-  Enabled: false
+  Max: 200
 Metrics/MethodLength:
   Enabled: false
 Metrics/ModuleLength:
   Enabled: false
+# 7 parameters are tooooooo many
 Metrics/ParameterLists:
-  Enabled: false
+  Enabled: true
+  Max: 7
+# Use the default setting
 Metrics/PerceivedComplexity:
-  Enabled: false
+  Enabled: true
+# Use the default setting
 
 Performance/RedundantBlockCall:
   Enabled: false
