@@ -32,6 +32,15 @@ Metrics/AbcSize:
 # Use the default setting
 Metrics/BlockNesting:
   Enabled: true
+Metrics/BlockLength:
+  Max: 30
+  Exclude:
+    # RuboCop's default
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'spec/**/*.rb'
+    # In many cases, config/routes.rb has very long block
+    - 'config/routes.rb'
 Metrics/ClassLength:
   Enabled: false
 Metrics/CyclomaticComplexity:
@@ -55,6 +64,8 @@ Performance/RedundantBlockCall:
   Enabled: false
 
 Rails/Delegate:
+  Enabled: false
+Rails/HttpPositionalArguments:
   Enabled: false
 Rails/Output:
   Enabled: false
@@ -226,6 +237,8 @@ Style/MultilineBlockLayout:
 Style/MultilineHashBraceLayout:
   Enabled: false
 Style/MultilineIfThen:
+  Enabled: false
+Style/MultilineMemoization:
   Enabled: false
 Style/MultilineMethodCallBraceLayout:
   Enabled: false
