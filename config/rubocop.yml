@@ -9,6 +9,10 @@ Lint/BlockAlignment:
   Enabled: false
 Lint/DefEndAlignment:
   Enabled: false
+# The cop reports not reasonable issues. So, disabled.
+# See. http://tech.sideci.com/entry/2016/11/01/105900
+Lint/EmptyWhen:
+  Enabled: false
 Lint/EndAlignment:
   Enabled: false
 Lint/Eval:
@@ -246,6 +250,8 @@ Style/MultilineMethodCallIndentation:
   Enabled: false
 Style/MultilineMethodDefinitionBraceLayout:
   Enabled: false
+Style/MultilineIfModifier:
+  Enabled: false
 Style/MultilineOperationIndentation:
   Enabled: false
 Style/MultilineTernaryOperator:
@@ -351,6 +357,8 @@ Style/SpaceBeforeComment:
 Style/SpaceBeforeFirstArg:
   Enabled: false
 Style/SpaceBeforeSemicolon:
+  Enabled: false
+Style/SpaceInLambdaLiteral:
   Enabled: false
 Style/SpaceInsideArrayPercentLiteral:
   Enabled: false
