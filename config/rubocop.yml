@@ -1,6 +1,9 @@
 AllCops:
   TargetRubyVersion: 2.3
 
+Bundler/OrderedGems:
+  Enabled: false
+
 Lint/AmbiguousRegexpLiteral:
   Enabled: false
 Lint/AssignmentInCondition:
@@ -169,6 +172,8 @@ Style/EmptyLinesAroundMethodBody:
 Style/EmptyLinesAroundModuleBody:
   Enabled: false
 Style/EmptyLiteral:
+  Enabled: false
+Style/EmptyMethod:
   Enabled: false
 Style/Encoding:
   Enabled: false
