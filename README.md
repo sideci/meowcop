@@ -1,5 +1,7 @@
 # Meowcop
 
+[![Gem Version](https://badge.fury.io/rb/meowcop.svg)](https://badge.fury.io/rb/meowcop)
+
 MeowCop is a RuboCop configuration recommended by Actcat inc.
 
 In the configuration, style rules are disabled. Because the rules almost for project specific.
