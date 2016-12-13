@@ -1,4 +1,4 @@
-# Meowcop
+# MeowCop
 
 [![Gem Version](https://badge.fury.io/rb/meowcop.svg)](https://badge.fury.io/rb/meowcop)
 
