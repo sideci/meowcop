@@ -21,8 +21,6 @@ Lint/EmptyWhen:
   Enabled: false
 Lint/EndAlignment:
   Enabled: false
-Lint/Eval:
-  Enabled: false
 Lint/HandleExceptions:
   Enabled: false
 Lint/Loop:
@@ -88,6 +86,9 @@ Rails/ReadWriteAttribute:
 Rails/RequestReferer:
   Enabled: false
 Rails/SafeNavigation:
+  Enabled: false
+
+Security/Eval:
   Enabled: false
 
 Style/AccessModifierIndentation:
