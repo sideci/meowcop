@@ -1,3 +1,9 @@
+AllCops:
+  Exclude:
+    # vendor directory is excluded by default.
+    - 'vendor/**/*'
+    # db/schema.rb is generated automatically.
+    - 'db/schema.rb'
 Bundler/OrderedGems:
   Enabled: false
 
