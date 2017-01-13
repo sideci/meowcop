@@ -229,7 +229,7 @@ Style/LeadingCommentSpace:
   Enabled: false
 Style/LineEndConcatenation:
   Enabled: false
-Style/MethodCallParentheses:
+Style/MethodCallWithoutArgsParentheses:
   Enabled: false
 Style/MethodDefParentheses:
   Enabled: false
