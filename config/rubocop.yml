@@ -90,6 +90,10 @@ Rails/SafeNavigation:
 
 Security/Eval:
   Enabled: false
+Security/MarshalLoad:
+  Enabled: false
+Security/YAMLLoad:
+  Enabled: false
 
 Style/AccessModifierIndentation:
   Enabled: false
@@ -228,6 +232,8 @@ Style/LambdaCall:
 Style/LeadingCommentSpace:
   Enabled: false
 Style/LineEndConcatenation:
+  Enabled: false
+Style/MethodCallWithArgsParentheses:
   Enabled: false
 Style/MethodCallWithoutArgsParentheses:
   Enabled: false
