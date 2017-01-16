@@ -21,8 +21,6 @@ Lint/EmptyWhen:
   Enabled: false
 Lint/EndAlignment:
   Enabled: false
-Lint/Eval:
-  Enabled: false
 Lint/HandleExceptions:
   Enabled: false
 Lint/Loop:
@@ -75,6 +73,8 @@ Performance/RedundantBlockCall:
 
 Rails/Delegate:
   Enabled: false
+Rails/FilePath:
+  Enabled: false
 Rails/HttpPositionalArguments:
   Enabled: false
 Rails/Output:
@@ -83,11 +83,20 @@ Rails/OutputSafety:
   Enabled: false
 Rails/PluralizationGrammar:
   Enabled: false
+Rails/SkipsModelValidations:
+  Enabled: false
 Rails/ReadWriteAttribute:
   Enabled: false
 Rails/RequestReferer:
   Enabled: false
 Rails/SafeNavigation:
+  Enabled: false
+
+Security/Eval:
+  Enabled: false
+Security/MarshalLoad:
+  Enabled: false
+Security/YAMLLoad:
   Enabled: false
 
 Style/AccessModifierIndentation:
@@ -228,7 +237,9 @@ Style/LeadingCommentSpace:
   Enabled: false
 Style/LineEndConcatenation:
   Enabled: false
-Style/MethodCallParentheses:
+Style/MethodCallWithArgsParentheses:
+  Enabled: false
+Style/MethodCallWithoutArgsParentheses:
   Enabled: false
 Style/MethodDefParentheses:
   Enabled: false
