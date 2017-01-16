@@ -73,6 +73,8 @@ Performance/RedundantBlockCall:
 
 Rails/Delegate:
   Enabled: false
+Rails/FilePath:
+  Enabled: false
 Rails/HttpPositionalArguments:
   Enabled: false
 Rails/Output:
@@ -80,6 +82,8 @@ Rails/Output:
 Rails/OutputSafety:
   Enabled: false
 Rails/PluralizationGrammar:
+  Enabled: false
+Rails/SkipsModelValidations:
   Enabled: false
 Rails/ReadWriteAttribute:
   Enabled: false
