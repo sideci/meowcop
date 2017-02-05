@@ -3,10 +3,12 @@ inherit_gem:
   meowcop:
     - config/rubocop.yml
 
+# Modify the version if you don't use MRI 2.1.
+AllCops:
+  TargetRubyVersion: 2.1
 
 # You can customize rubocop settings.
 # For example.
-
-Style/FrozenStringLiteralComment:
-  Enabled: true
-  EnforcedStyle: always
+# Style/FrozenStringLiteralComment:
+#   Enabled: true
+#   EnforcedStyle: always
