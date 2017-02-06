@@ -25,12 +25,26 @@ Or install it yourself as:
 
 ## Configuration
 
-Add the following directive to your `.rubocop.yml`
+MeowCop provides a CLI tool to initialise `.rubocop.yml`
 
-```yaml
+```ruby
+$ meowcop init
+Meow! .rubocop.yml has been created successfully.
+$ cat .rubocop.yml
+# To use the MeowCop gem.
 inherit_gem:
   meowcop:
     - config/rubocop.yml
+
+# Modify the version if you don't use MRI 2.1.
+AllCops:
+  TargetRubyVersion: 2.1
+
+# You can customize rubocop settings.
+# For example.
+# Style/FrozenStringLiteralComment:
+#   Enabled: true
+#   EnforcedStyle: always
 ```
 
 ### Example
@@ -45,6 +59,7 @@ Just execute RuboCop.
 ```sh
 $ bundle exec rubocop
 ```
+
 
 
 
