@@ -2,10 +2,20 @@
 
 [![Gem Version](https://badge.fury.io/rb/meowcop.svg)](https://badge.fury.io/rb/meowcop)
 
-MeowCop is a RuboCop configuration recommended by Actcat inc.
+MeowCop is a gem for RuboCop configuration, it focuses **Lint**.
+It's recommended by Actcat inc.
+
+
+## Design
+
+RuboCop has many style cops. Style cops provide one of several settings.
+So, sometime we get many many warnings when we introduce RuboCop. The cause is a mismatch between RuboCop's default setting and your project coding style.
 
 In the configuration, style rules are disabled. Because the rules almost for project specific.
-However, lint rules are enabled.
+If you use, you can use RuboCop as a Linter without many noisy warnings.
+
+
+If you want to use RuboCop as a style checker, we recommend [Gry](https://github.com/pocke/gry).
 
 ## Installation
 
