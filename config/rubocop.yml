@@ -4,6 +4,9 @@ AllCops:
     - 'vendor/**/*'
     # db/schema.rb is generated automatically.
     - 'db/schema.rb'
+  DisplayCopName: true
+  DisplayStyleGuide: true
+
 Bundler/OrderedGems:
   Enabled: false
 
