@@ -74,6 +74,8 @@ Metrics/PerceivedComplexity:
 Performance/RedundantBlockCall:
   Enabled: false
 
+Rails/ActiveSupportAliases:
+  Enabled: false
 Rails/Delegate:
   Enabled: false
 Rails/FilePath:
@@ -176,11 +178,17 @@ Style/EmptyLineBetweenDefs:
   Enabled: false
 Style/EmptyLines:
   Enabled: false
+Style/EmptyLineAfterMagicComment:
+  Enabled: false
 Style/EmptyLinesAroundAccessModifier:
+  Enabled: false
+Style/EmptyLinesAroundBeginBody:
   Enabled: false
 Style/EmptyLinesAroundBlockBody:
   Enabled: false
 Style/EmptyLinesAroundClassBody:
+  Enabled: false
+Style/EmptyLinesAroundExceptionHandlingKeywords:
   Enabled: false
 Style/EmptyLinesAroundMethodBody:
   Enabled: false
@@ -228,9 +236,13 @@ Style/IndentationWidth:
   Enabled: false
 Style/IndentHash:
   Enabled: false
+Style/IndentHeredoc:
+  Enabled: false
 Style/InfiniteLoop:
   Enabled: false
 Style/InitialIndentation:
+  Enabled: false
+Style/InverseMethods:
   Enabled: false
 Style/Lambda:
   Enabled: false
@@ -249,6 +261,8 @@ Style/MethodDefParentheses:
 Style/MethodMissing:
   Enabled: false
 Style/MethodName:
+  Enabled: false
+Style/MixinGrouping:
   Enabled: false
 Style/ModuleFunction:
   Enabled: false
