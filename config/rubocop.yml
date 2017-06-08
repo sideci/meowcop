@@ -301,6 +301,8 @@ Style/For:
   Enabled: false
 Style/FormatString:
   Enabled: false
+Style/FormatStringToken:
+  Enabled: false
 Style/FrozenStringLiteralComment:
   Enabled: false
 Style/GuardClause:
@@ -344,6 +346,8 @@ Style/MultilineMemoization:
 Style/MultilineIfModifier:
   Enabled: false
 Style/MultilineTernaryOperator:
+  Enabled: false
+Style/MultipleComparison:
   Enabled: false
 Style/MutableConstant:
   Enabled: false
@@ -462,6 +466,8 @@ Style/WhileUntilDo:
 Style/WhileUntilModifier:
   Enabled: false
 Style/WordArray:
+  Enabled: false
+Style/YodaCondition:
   Enabled: false
 Style/ZeroLengthPredicate:
   Enabled: false
