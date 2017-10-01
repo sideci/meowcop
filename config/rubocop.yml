@@ -243,6 +243,8 @@ Naming/ConstantName:
   Enabled: false
 Naming/FileName:
   Enabled: false
+Naming/HeredocDelimiterNaming:
+  Enabled: false
 Naming/MethodName:
   Enabled: false
 Naming/PredicateName:
