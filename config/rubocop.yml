@@ -288,6 +288,8 @@ Style/CommandLiteral:
   Enabled: false
 Style/CommentAnnotation:
   Enabled: false
+Style/CommentedKeyword:
+  Enabled: false
 Style/ConditionalAssignment:
   Enabled: false
 Style/DefWithParentheses:
@@ -473,4 +475,7 @@ Style/WordArray:
 Style/YodaCondition:
   Enabled: false
 Style/ZeroLengthPredicate:
+  Enabled: false
+
+Gemspec/OrderedDependencies:
   Enabled: false
