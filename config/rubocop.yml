@@ -479,3 +479,176 @@ Style/ZeroLengthPredicate:
 
 Gemspec/OrderedDependencies:
   Enabled: false
+
+
+# The following cops are added between 0.51.0 and 0.52.0.
+# The configurations are default.
+# If you want to use a cop by default, remove a configuration for the cop from here.
+# If you want to disable a cop, change `Enabled` to false.
+
+Gemspec/DuplicatedAssignment:
+  Description: An attribute assignment method calls should be listed only once in a
+    gemspec.
+  Enabled: true
+  Include:
+  - "**/*.gemspec"
+
+Gemspec/RequiredRubyVersion:
+  Description: Checks that `required_ruby_version` of gemspec and `TargetRubyVersion`
+    of .rubocop.yml are equal.
+  Enabled: true
+  Include:
+  - "**/*.gemspec"
+
+# Supports --auto-correct
+Layout/ClassStructure:
+  Description: Enforces a configured order of definitions within a class body.
+  StyleGuide: https://github.com/bbatsov/ruby-style-guide#consistent-classes
+  Enabled: false
+  Categories:
+    module_inclusion:
+    - include
+    - prepend
+    - extend
+  ExpectedOrder:
+  - module_inclusion
+  - constants
+  - public_class_methods
+  - initializer
+  - public_methods
+  - protected_methods
+  - private_methods
+
+# Supports --auto-correct
+Layout/EmptyLinesAroundArguments:
+  Description: Keeps track of empty lines around method arguments.
+  Enabled: true
+
+# Supports --auto-correct
+Layout/SpaceInsideArrayLiteralBrackets:
+  Description: Checks the spacing inside array literal brackets.
+  Enabled: true
+  EnforcedStyle: no_space
+  SupportedStyles:
+  - space
+  - no_space
+  - compact
+  EnforcedStyleForEmptyBrackets: no_space
+  SupportedStylesForEmptyBrackets:
+  - space
+  - no_space
+
+# Supports --auto-correct
+Layout/SpaceInsideReferenceBrackets:
+  Description: Checks the spacing inside referential brackets.
+  Enabled: true
+  EnforcedStyle: no_space
+  SupportedStyles:
+  - space
+  - no_space
+
+Lint/MissingCopEnableDirective:
+  Description: Checks for a `# rubocop:enable` after `# rubocop:disable`
+  Enabled: true
+  MaximumRangeSize: .inf
+
+Lint/NestedPercentLiteral:
+  Description: Checks for nested percent literals.
+  Enabled: true
+
+Lint/ShadowedArgument:
+  Description: Avoid reassigning arguments before they were used.
+  Enabled: true
+  IgnoreImplicitReferences: false
+
+Rails/CreateTableWithTimestamps:
+  Description: Checks the migration for which timestamps are not included when creating
+    a new table.
+  Enabled: true
+  Include:
+  - db/migrate/*.rb
+
+# Supports --auto-correct
+Rails/EnvironmentComparison:
+  Description: Favor `Rails.env.production?` over `Rails.env == 'production'`
+  Enabled: true
+
+Rails/InverseOf:
+  Description: Checks for associations where the inverse cannot be determined automatically.
+  Enabled: true
+  Include:
+  - app/models/**/*.rb
+
+Rails/LexicallyScopedActionFilter:
+  Description: Checks that methods specified in the filter's `only` or `except` options
+    are explicitly defined in the controller.
+  StyleGuide: https://github.com/bbatsov/rails-style-guide#lexically-scoped-action-filter
+  Enabled: true
+  Include:
+  - app/controllers/**/*.rb
+
+# Supports --auto-correct
+Rails/Presence:
+  Description: Checks code that can be written more easily using `Object#presence` defined
+    by Active Support.
+  Enabled: true
+
+# Supports --auto-correct
+Rails/RedundantReceiverInWithOptions:
+  Description: Checks for redundant receiver in `with_options`.
+  Enabled: true
+
+# Supports --auto-correct
+Style/ColonMethodDefinition:
+  Description: 'Do not use :: for defining class methods.'
+  StyleGuide: "#colon-method-definition"
+  Enabled: true
+
+# Supports --auto-correct
+Style/EmptyBlockParameter:
+  Description: Omit pipes for empty block parameters.
+  Enabled: true
+
+# Supports --auto-correct
+Style/EmptyLambdaParameter:
+  Description: Omit parens for empty lambda parameters.
+  Enabled: true
+
+Style/EvalWithLocation:
+  Description: Pass `__FILE__` and `__LINE__` to `eval` method, as they are used by
+    backtraces.
+  Enabled: true
+
+# Supports --auto-correct
+Style/ExtendSelf:
+  Description: Checks for uses of extend self.
+  StyleGuide: "#module-function"
+  Enabled: true
+  Autocorrect: false
+  EnforcedStyle: module_function
+  SupportedStyles:
+  - module_function
+  - extend_self
+
+# Supports --auto-correct
+Style/RandomWithOffset:
+  Description: Prefer to use ranges when generating random numbers instead of integers
+    with offsets.
+  StyleGuide: "#random-numbers"
+  Enabled: true
+
+# Supports --auto-correct
+Style/StringHashKeys:
+  Description: Prefer symbols instead of strings as hash keys.
+  StyleGuide: "#symbols-as-keys"
+  Enabled: false
+
+# Supports --auto-correct
+Style/TrailingBodyOnMethodDefinition:
+  Description: Method body goes below definition.
+  Enabled: true
+
+# Supports --auto-correct
+Style/TrailingMethodEndStatement:
+  Description: Checks for trailing end statement on line of method body.
+  Enabled: true
