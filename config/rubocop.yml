@@ -214,11 +214,11 @@ Layout/SpaceBeforeSemicolon:
   Enabled: false
 Layout/SpaceInLambdaLiteral:
   Enabled: false
+Layout/SpaceInsideArrayLiteralBrackets:
+  Enabled: false
 Layout/SpaceInsideArrayPercentLiteral:
   Enabled: false
 Layout/SpaceInsideBlockBraces:
-  Enabled: false
-Layout/SpaceInsideBrackets:
   Enabled: false
 Layout/SpaceInsideHashLiteralBraces:
   Enabled: false
@@ -227,6 +227,8 @@ Layout/SpaceInsideParens:
 Layout/SpaceInsidePercentLiteralDelimiters:
   Enabled: false
 Layout/SpaceInsideRangeLiteral:
+  Enabled: false
+Layout/SpaceInsideReferenceBrackets:
   Enabled: false
 Layout/SpaceInsideStringInterpolation:
   Enabled: false
@@ -302,6 +304,8 @@ Style/EmptyCaseCondition:
   Enabled: false
 Style/EmptyElse:
   Enabled: false
+Style/EmptyLambdaParameter:
+  Enabled: false
 Style/EmptyLiteral:
   Enabled: false
 Style/EmptyMethod:
@@ -311,6 +315,8 @@ Style/Encoding:
 Style/EndBlock:
   Enabled: false
 Style/EvenOdd:
+  Enabled: false
+Style/ExtendSelf:
   Enabled: false
 Style/For:
   Enabled: false
@@ -479,3 +485,9 @@ Style/ZeroLengthPredicate:
 
 Gemspec/OrderedDependencies:
   Enabled: false
+
+# ------------- Enabled cops
+
+# In many cases, hash keys should be a symbol, not a string.
+Style/StringHashKeys:
+  Enabled: true
