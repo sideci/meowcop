@@ -14,15 +14,9 @@ Lint/AmbiguousRegexpLiteral:
   Enabled: false
 Lint/AssignmentInCondition:
   Enabled: false
-Lint/BlockAlignment:
-  Enabled: false
-Lint/DefEndAlignment:
-  Enabled: false
 # The cop reports not reasonable issues. So, disabled.
 # See. http://tech.sideci.com/entry/2016/11/01/105900
 Lint/EmptyWhen:
-  Enabled: false
-Lint/EndAlignment:
   Enabled: false
 Lint/HandleExceptions:
   Enabled: false
@@ -30,7 +24,7 @@ Lint/Loop:
   Enabled: false
 Lint/RescueException:
   Enabled: false
-Lint/UnneededDisable:
+Lint/UnneededCopDisableDirective:
   Enabled: false
 Lint/UnusedBlockArgument:
   Enabled: false
@@ -236,6 +230,12 @@ Layout/TrailingBlankLines:
   Enabled: false
 Layout/TrailingWhitespace:
   Enabled: false
+Layout/BlockAlignment:
+  Enabled: false
+Layout/DefEndAlignment:
+  Enabled: false
+Layout/EndAlignment:
+  Enabled: false
 
 Naming/AccessorMethodName:
   Enabled: false
@@ -254,6 +254,10 @@ Naming/PredicateName:
 Naming/VariableName:
   Enabled: false
 Naming/VariableNumber:
+  Enabled: false
+Naming/UncommunicativeBlockParamName:
+  Enabled: false
+Naming/UncommunicativeMethodParamName:
   Enabled: false
 
 Style/Alias:
