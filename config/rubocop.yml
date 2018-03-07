@@ -462,7 +462,9 @@ Style/TernaryParentheses:
   Enabled: false
 Style/TrailingCommaInArguments:
   Enabled: false
-Style/TrailingCommaInLiteral:
+Style/TrailingCommaInArrayLiteral:
+  Enabled: false
+Style/TrailingCommaInHashLiteral:
   Enabled: false
 Style/TrailingUnderscoreVariable:
   Enabled: false
