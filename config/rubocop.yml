@@ -354,7 +354,9 @@ Style/MethodCallWithoutArgsParentheses:
   Enabled: false
 Style/MethodDefParentheses:
   Enabled: false
-Style/MethodMissing:
+Style/MethodMissingSuper:
+  Enabled: false
+Style/MethodRespondToMissing:
   Enabled: false
 Style/MixinGrouping:
   Enabled: false
