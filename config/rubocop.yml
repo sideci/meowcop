@@ -90,6 +90,12 @@ Rails/RequestReferer:
   Enabled: false
 Rails/SafeNavigation:
   Enabled: false
+Rails/HttpStatus:
+  Enabled: false
+Rails/RefuteMethods:
+  Enabled: false
+Rails/AssertNot:
+  Enabled: false
 
 Security/Eval:
   Enabled: false
@@ -235,6 +241,10 @@ Layout/BlockAlignment:
 Layout/DefEndAlignment:
   Enabled: false
 Layout/EndAlignment:
+  Enabled: false
+Layout/ClosingHeredocIndentation:
+  Enabled: false
+Layout/LeadingBlankLines:
   Enabled: false
 
 Naming/AccessorMethodName:
@@ -487,6 +497,8 @@ Style/WordArray:
 Style/YodaCondition:
   Enabled: false
 Style/ZeroLengthPredicate:
+  Enabled: false
+Style/AccessModifierDeclarations:
   Enabled: false
 
 Gemspec/OrderedDependencies:
