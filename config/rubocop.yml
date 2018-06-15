@@ -320,8 +320,6 @@ Style/EndBlock:
   Enabled: false
 Style/EvenOdd:
   Enabled: false
-Style/ExtendSelf:
-  Enabled: false
 Style/For:
   Enabled: false
 Style/FormatString:
@@ -356,7 +354,7 @@ Style/MethodDefParentheses:
   Enabled: false
 Style/MethodMissingSuper:
   Enabled: false
-Style/MethodRespondToMissing:
+Style/MissingRespondToMissing:
   Enabled: false
 Style/MixinGrouping:
   Enabled: false
