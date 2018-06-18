@@ -236,6 +236,10 @@ Layout/DefEndAlignment:
   Enabled: false
 Layout/EndAlignment:
   Enabled: false
+Layout/ClosingHeredocIndentation:
+  Enabled: false
+Layout/LeadingBlankLines:
+  Enabled: false
 
 Naming/AccessorMethodName:
   Enabled: false
@@ -487,6 +491,8 @@ Style/WordArray:
 Style/YodaCondition:
   Enabled: false
 Style/ZeroLengthPredicate:
+  Enabled: false
+Style/AccessModifierDeclarations:
   Enabled: false
 
 Gemspec/OrderedDependencies:
