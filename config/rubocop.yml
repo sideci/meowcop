@@ -90,6 +90,12 @@ Rails/RequestReferer:
   Enabled: false
 Rails/SafeNavigation:
   Enabled: false
+Rails/HttpStatus:
+  Enabled: false
+Rails/RefuteMethods:
+  Enabled: false
+Rails/AssertNot:
+  Enabled: false
 
 Security/Eval:
   Enabled: false
