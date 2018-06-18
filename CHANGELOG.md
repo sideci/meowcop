@@ -1,3 +1,7 @@
+## 1.17.0 (2018-06-18)
+
+- [#31](https://github.com/sideci/meowcop/pull/31): Follow up of new cops (v0.57.0)
+
 ## 1.16.1 (2018-06-18)
 
 - [#28](https://github.com/sideci/meowcop/pull/28): Fix unrecognized cops warnings
