@@ -46,9 +46,15 @@ inherit_gem:
   meowcop:
     - config/rubocop.yml
 
-# Modify the version if you don't use MRI 2.1.
+# Modify the version if you don't use MRI 2.2.
 AllCops:
-  TargetRubyVersion: 2.1
+  TargetRubyVersion: 2.2
+  # If you use RuboCop with Ruby on Rails, specify TargetRailsVersion(default: 5.0).
+  TargetRailsVersion: 5.0
+
+Rails:
+  # If you use RuboCop with Ruby on Rails, turn on this option.
+  Enabled: false
 
 # You can customize rubocop settings.
 # For example.
