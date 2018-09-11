@@ -1,3 +1,7 @@
+## 1.17.1 (2018-09-11)
+
+- [#34](https://github.com/sider/meowcop/pull/34): Follow up of new cops (v0.59.0)
+
 ## 1.17.0 (2018-06-18)
 
 - [#31](https://github.com/sideci/meowcop/pull/31): Follow up of new cops (v0.57.0)
