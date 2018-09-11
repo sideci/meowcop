@@ -130,6 +130,8 @@ Layout/EmptyLines:
   Enabled: false
 Layout/EmptyLineAfterMagicComment:
   Enabled: false
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
 Layout/EmptyLinesAroundAccessModifier:
   Enabled: false
 Layout/EmptyLinesAroundBeginBody:
