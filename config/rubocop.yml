@@ -96,6 +96,8 @@ Rails/RefuteMethods:
   Enabled: false
 Rails/AssertNot:
   Enabled: false
+Rails/ReflectionClassName:
+  Enabled: false
 
 Security/Eval:
   Enabled: false
