@@ -40,7 +40,7 @@ module Meowcop
     end
 
     def init(_args)
-      action = File.exist?(CONFIG_FILE_NAME) ? "overwrited" : "created"
+      action = File.exist?(CONFIG_FILE_NAME) ? "overwritten" : "created"
       FileUtils.copy_file(config_file_path, CONFIG_FILE_NAME)
       puts "Meow! #{CONFIG_FILE_NAME} has been #{action} successfully."
 
