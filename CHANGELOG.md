@@ -1,3 +1,8 @@
+## 1.18.0 (2019-04-05)
+
+- [#37](https://github.com/sider/meowcop/pull/37): Fix typo
+- [#40](https://github.com/sider/meowcop/pull/40): Follow up of new cops (v0.67)
+
 ## 1.17.1 (2018-09-11)
 
 - [#34](https://github.com/sider/meowcop/pull/34): Follow up of new cops (v0.59.0)
