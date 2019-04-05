@@ -68,6 +68,8 @@ Metrics/PerceivedComplexity:
 Performance/RedundantBlockCall:
   Enabled: false
 
+Rails/ActiveRecordOverride:
+  Enabled: false
 Rails/ActiveSupportAliases:
   Enabled: false
 Rails/Delegate:
@@ -262,6 +264,8 @@ Naming/HeredocDelimiterNaming:
 Naming/MethodName:
   Enabled: false
 Naming/PredicateName:
+  Enabled: false
+Naming/RescuedExceptionsVariableName:
   Enabled: false
 Naming/VariableName:
   Enabled: false
