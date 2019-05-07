@@ -65,9 +65,6 @@ Metrics/PerceivedComplexity:
   Enabled: true
 # Use the default setting
 
-Performance/RedundantBlockCall:
-  Enabled: false
-
 Rails/ActiveRecordOverride:
   Enabled: false
 Rails/ActiveSupportAliases:
@@ -107,6 +104,8 @@ Security/YAMLLoad:
   Enabled: false
 
 Layout/AccessModifierIndentation:
+  Enabled: false
+Layout/AlignArguments:
   Enabled: false
 Layout/AlignArray:
   Enabled: false
@@ -152,9 +151,13 @@ Layout/EndOfLine:
   Enabled: false
 Layout/ExtraSpacing:
   Enabled: false
+Layout/HeredocArgumentClosingParenthesis:
+  Enabled: false
 Layout/IndentFirstArgument:
   Enabled: false
 Layout/IndentFirstArrayElement:
+  Enabled: false
+Layout/IndentFirstParameter:
   Enabled: false
 Layout/IndentAssignment:
   Enabled: false
