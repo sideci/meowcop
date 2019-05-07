@@ -152,9 +152,9 @@ Layout/EndOfLine:
   Enabled: false
 Layout/ExtraSpacing:
   Enabled: false
-Layout/FirstParameterIndentation:
+Layout/IndentFirstArgument:
   Enabled: false
-Layout/IndentArray:
+Layout/IndentFirstArrayElement:
   Enabled: false
 Layout/IndentAssignment:
   Enabled: false
@@ -162,7 +162,7 @@ Layout/IndentationConsistency:
   Enabled: false
 Layout/IndentationWidth:
   Enabled: false
-Layout/IndentHash:
+Layout/IndentFirstHashElement:
   Enabled: false
 Layout/IndentHeredoc:
   Enabled: false
