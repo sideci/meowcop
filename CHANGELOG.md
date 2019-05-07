@@ -1,3 +1,8 @@
+## 1.19.0 (2019-05-07)
+
+- [#41](https://github.com/sider/meowcop/pull/41): Rename some cops to follow up of Rubocop v0.68
+- [#42](https://github.com/sider/meowcop/pull/42): RuboCop v0.68
+
 ## 1.18.0 (2019-04-05)
 
 - [#37](https://github.com/sider/meowcop/pull/37): Fix typo
