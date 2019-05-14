@@ -395,6 +395,8 @@ Style/MutableConstant:
   Enabled: false
 Style/NegatedIf:
   Enabled: false
+Style/NegatedUnless:
+  Enabled: false
 Style/NegatedWhile:
   Enabled: false
 Style/NestedParenthesizedCalls:
