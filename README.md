@@ -59,7 +59,7 @@ AllCops:
 
 ### Example
 
-https://github.com/sideci/meowcop/blob/master/examples/.rubocop.yml
+https://github.com/sider/meowcop/blob/master/examples/.rubocop.yml
 
 
 ## Usage
@@ -81,4 +81,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/sideci/meowcop.
+Bug reports and pull requests are welcome on GitHub at <https://github.com/sider/meowcop>.
