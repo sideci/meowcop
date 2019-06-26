@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Masataka Kuwabara"]
   spec.email         = ["p.ck.t22@gmail.com"]
 
-  spec.summary       = %q{MeowCop is a RuboCop configuration recommended by Actcat inc.}
-  spec.description   = %q{MeowCop is a RuboCop configuration recommended by Actcat inc.}
-  spec.homepage      = "https://github.com/sideci/meowcop"
+  spec.summary       = %q{MeowCop is a RuboCop configuration recommended by Sider, Inc.}
+  spec.description   = %q{MeowCop is a RuboCop configuration recommended by Sider, Inc.}
+  spec.homepage      = "https://github.com/sider/meowcop"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
