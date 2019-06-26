@@ -63,38 +63,6 @@ Metrics/ParameterLists:
 # Use the default setting
 Metrics/PerceivedComplexity:
   Enabled: true
-# Use the default setting
-
-Rails/ActiveRecordOverride:
-  Enabled: false
-Rails/ActiveSupportAliases:
-  Enabled: false
-Rails/Delegate:
-  Enabled: false
-Rails/FilePath:
-  Enabled: false
-Rails/HttpPositionalArguments:
-  Enabled: false
-Rails/Output:
-  Enabled: false
-Rails/OutputSafety:
-  Enabled: false
-Rails/PluralizationGrammar:
-  Enabled: false
-Rails/SkipsModelValidations:
-  Enabled: false
-Rails/ReadWriteAttribute:
-  Enabled: false
-Rails/RequestReferer:
-  Enabled: false
-Rails/SafeNavigation:
-  Enabled: false
-Rails/HttpStatus:
-  Enabled: false
-Rails/RefuteMethods:
-  Enabled: false
-Rails/AssertNot:
-  Enabled: false
 
 Security/Eval:
   Enabled: false
@@ -338,6 +306,8 @@ Style/Encoding:
 Style/EndBlock:
   Enabled: false
 Style/EvenOdd:
+  Enabled: false
+Style/FloatDivision:
   Enabled: false
 Style/For:
   Enabled: false

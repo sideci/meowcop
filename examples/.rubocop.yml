@@ -6,12 +6,6 @@ inherit_gem:
 # Modify the version if you don't use MRI 2.6.
 AllCops:
   TargetRubyVersion: 2.6
-  # If you use RuboCop with Ruby on Rails, specify TargetRailsVersion(default: 5.0).
-  TargetRailsVersion: 5.0
-
-Rails:
-  # If you use RuboCop with Ruby on Rails, turn on this option.
-  Enabled: false
 
 # You can customize rubocop settings.
 # For example.
