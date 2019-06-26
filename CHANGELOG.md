@@ -1,3 +1,15 @@
+## 2.0.0 (2019-06-26)
+
+- [#50](https://github.com/sider/meowcop/pull/50): Follow up of RuboCop v0.72.0 (including a breaking change, see below)
+
+### Breaking Change
+
+Since version 2, MeowCop has stopped supporting Rails Cops. Because RuboCop v0.72 has separated Rails Cops from its core gem to another [`rubocop-rails`](https://github.com/rubocop-hq/rubocop-rails) gem. For details, please see [the v0.72 changelog](https://github.com/rubocop-hq/rubocop/blob/v0.72.0/CHANGELOG.md) and [the related issue](https://github.com/rubocop-hq/rubocop/issues/5976).
+
+If you want to continue using Rails Cops which were disabled by MeowCop v1, please copy the Cops in the following past config file and paste them to your `.rubocop.yml` file:
+
+<https://github.com/sider/meowcop/blob/v1.20.0/config/rubocop.yml#L68-L97>
+
 ## 1.20.0 (2019-05-14)
 
 - [#44](https://github.com/sider/meowcop/pull/44): Follow up of RuboCop v0.69.0
