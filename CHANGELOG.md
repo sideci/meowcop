@@ -1,3 +1,7 @@
+## 2.1.0 (2019-07-17)
+
+- [#54](https://github.com/sider/meowcop/pull/54): Follow up of RuboCop v0.73
+
 ## 2.0.0 (2019-06-26)
 
 - [#50](https://github.com/sider/meowcop/pull/50): Follow up of RuboCop v0.72.0 (including a breaking change, see below)
