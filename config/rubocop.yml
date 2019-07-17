@@ -361,6 +361,8 @@ Style/MultilineTernaryOperator:
   Enabled: false
 Style/MultipleComparison:
   Enabled: false
+Style/MultilineWhenThen:
+  Enabled: false
 Style/MutableConstant:
   Enabled: false
 Style/NegatedIf:
