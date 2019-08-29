@@ -2,20 +2,18 @@
 
 [![Gem Version](https://badge.fury.io/rb/meowcop.svg)](https://badge.fury.io/rb/meowcop)
 
-MeowCop is a gem for RuboCop configuration, it focuses **Lint**.
+MeowCop is a gem for shareable RuboCop configuration, it focuses **Lint**.
 It's recommended by Sider, Inc.
-
 
 ## Design
 
-RuboCop has many style cops. Style cops provide one of several settings.
-So, sometime we get many many warnings when we introduce RuboCop. The cause is a mismatch between RuboCop's default setting and your project coding style.
+RuboCop has many stylistic rules (RuboCop call a rule "Cop"). ["Style Cops"](https://www.rubocop.org/en/stable/cops_style/) provide one of several settings.
+So, we encounter many many warnings when we introduce RuboCop. The cause is a mismatch between the RuboCop's default settings and your project's coding style.
 
-In the configuration, style rules are disabled. Because the rules almost for project specific.
-If you use, you can use RuboCop as a Linter without many noisy warnings.
+In the configuration of MeowCop, almost all stylistic rules are disabled. Because such rules are almost specific for your project.
+If you want, you can use RuboCop as a **Linter** without many noisy warnings.
 
-
-If you want to use RuboCop as a style checker, we recommend [Gry](https://github.com/pocke/gry).
+In contrast, if you want to use RuboCop as a style checker, we recommend [Gry](https://github.com/pocke/gry).
 
 ## Installation
 
@@ -27,19 +25,24 @@ gem 'meowcop'
 
 And then execute:
 
-    $ bundle
+```sh
+$ bundle install
+```
 
 Or install it yourself as:
 
-    $ gem install meowcop
+```sh
+$ gem install meowcop
+```
 
 ## Configuration
 
-MeowCop provides a CLI tool to initialise `.rubocop.yml`
+MeowCop provides a CLI tool to initialize `.rubocop.yml`. See below:
 
 ```ruby
 $ meowcop init
 Meow! .rubocop.yml has been created successfully.
+
 $ cat .rubocop.yml
 # To use the MeowCop gem.
 inherit_gem:
@@ -50,7 +53,7 @@ inherit_gem:
 AllCops:
   TargetRubyVersion: 2.6
 
-# You can customize rubocop settings.
+# You can customize RuboCop settings.
 # For example.
 # Style/FrozenStringLiteralComment:
 #   Enabled: true
@@ -59,19 +62,21 @@ AllCops:
 
 ### Example
 
-https://github.com/sider/meowcop/blob/master/examples/.rubocop.yml
-
+See this [example](examples/.rubocop.yml).
 
 ## Usage
 
-Just execute RuboCop.
+Just execute RuboCop with `.rubocop.yml` configured by MeowCop:
 
 ```sh
 $ bundle exec rubocop
 ```
 
+Or,
 
-
+```sh
+$ rubocop
+```
 
 ## Development
 
