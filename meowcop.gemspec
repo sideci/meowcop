@@ -6,12 +6,19 @@ require 'meowcop/version'
 Gem::Specification.new do |spec|
   spec.name          = "meowcop"
   spec.version       = Meowcop::VERSION
-  spec.authors       = ["Masataka Kuwabara"]
-  spec.email         = ["p.ck.t22@gmail.com"]
+  spec.licenses      = ["MIT"]
+  spec.authors       = ["Masataka Kuwabara", "Sider, Inc."]
+  spec.email         = "support@sider.review"
 
-  spec.summary       = %q{MeowCop is a RuboCop configuration recommended by Sider, Inc.}
+  spec.summary       = %q{A RuboCop configuration focusing Lint}
   spec.description   = %q{MeowCop is a RuboCop configuration recommended by Sider, Inc.}
   spec.homepage      = "https://github.com/sider/meowcop"
+
+  spec.metadata = {
+    "bug_tracker_uri" => "https://github.com/sider/meowcop/issues",
+    "changelog_uri" => "https://github.com/sider/meowcop/blob/master/CHANGELOG.md",
+    "source_code_uri" => "https://github.com/sider/meowcop"
+  }
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
