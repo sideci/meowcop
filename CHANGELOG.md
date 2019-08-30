@@ -1,3 +1,12 @@
+# Changelog
+
+## 2.2.0 (2019-08-30)
+
+This release does not add any features but adds the license: **MIT**.
+This may have an impact on certain users, so we decided it appropriate that this release is a minor update, not a patch update.
+
+- [#56](https://github.com/sider/meowcop/pull/56): Add license and update gemspec
+
 ## 2.1.0 (2019-07-17)
 
 - [#54](https://github.com/sider/meowcop/pull/54): Follow up of RuboCop v0.73
