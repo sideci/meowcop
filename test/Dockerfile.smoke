@@ -1,0 +1,18 @@
+FROM rubylang/ruby:latest
+
+RUN mkdir /work
+WORKDIR /work
+
+COPY lib/meowcop/version.rb .
+RUN MEOWCOP_VERSION="$(grep -oE '[0-9]+\.[0-9]+\.[0-9]+' version.rb)" && \
+    rm version.rb && \
+    gem install "meowcop:${MEOWCOP_VERSION}" && \
+    meowcop init && \
+    cat .rubocop.yml
+
+RUN printf "class Foo\n\
+private def bar; end\n\
+end\n\
+" > test.rb
+
+ENTRYPOINT ["rubocop"]
