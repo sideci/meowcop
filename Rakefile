@@ -11,6 +11,6 @@ end
 
 desc "Run smoke tests"
 task :smoke do
-  sh "docker build -t meowcop/smoke -f test/Dockerfile.smoke ."
+  sh "docker build -t meowcop/smoke -f test/smoke/Dockerfile ."
   sh "docker run -it --rm meowcop/smoke"
 end
