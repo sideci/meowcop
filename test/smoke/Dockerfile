@@ -14,4 +14,4 @@ RUN rake install && \
     meowcop init && \
     cat .rubocop.yml
 
-ENTRYPOINT rubocop test/smoke | grep -A2 Style/StringHashKeys
+ENTRYPOINT test "$(rubocop test/smoke --format=simple)" = "$(cat test/smoke/expectation-output.txt)"
