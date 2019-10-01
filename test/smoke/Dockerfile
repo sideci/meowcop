@@ -3,12 +3,15 @@ FROM rubylang/ruby:latest
 RUN mkdir /work
 WORKDIR /work
 
-COPY test/smoke/*.rb .
-COPY lib/meowcop/version.rb .
-RUN MEOWCOP_VERSION="$(grep -oE '[0-9]+\.[0-9]+\.[0-9]+' version.rb)" && \
-    rm version.rb && \
-    gem install "meowcop:${MEOWCOP_VERSION}" && \
+COPY config/ ./config/
+COPY examples/ ./examples/
+COPY exe/ ./exe/
+COPY lib/ ./lib/
+COPY Rakefile ./
+COPY *.gemspec ./
+COPY test/smoke/ ./test/smoke/
+RUN rake install && \
     meowcop init && \
     cat .rubocop.yml
 
-ENTRYPOINT ["rubocop"]
+ENTRYPOINT ["rubocop", "test/smoke"]
