@@ -14,4 +14,4 @@ RUN rake install && \
     meowcop init && \
     cat .rubocop.yml
 
-ENTRYPOINT ["rubocop", "test/smoke"]
+ENTRYPOINT rubocop test/smoke | grep -A2 Style/StringHashKeys
