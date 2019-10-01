@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 2.3.0 (2019-10-01)
+
 - [#62](https://github.com/sider/meowcop/pull/62): Disable all Style Cops
 
 ## 2.2.0 (2019-08-30)
