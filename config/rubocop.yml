@@ -249,15 +249,25 @@ Naming/UncommunicativeBlockParamName:
 Naming/UncommunicativeMethodParamName:
   Enabled: false
 
+# THIS BLOCK IS AUTO-GENERATED. DO NOT EDIT.
+# === Disabled cops: BEGIN ===
+Style/AccessModifierDeclarations:
+  Enabled: false
 Style/Alias:
   Enabled: false
 Style/AndOr:
+  Enabled: false
+Style/ArrayJoin:
   Enabled: false
 Style/AsciiComments:
   Enabled: false
 Style/Attr:
   Enabled: false
+Style/AutoResourceCleanup:
+  Enabled: false
 Style/BarePercentLiterals:
+  Enabled: false
+Style/BeginBlock:
   Enabled: false
 Style/BlockComments:
   Enabled: false
@@ -273,11 +283,15 @@ Style/ClassAndModuleChildren:
   Enabled: false
 Style/ClassCheck:
   Enabled: false
+Style/ClassMethods:
+  Enabled: false
 Style/ClassVars:
   Enabled: false
 Style/CollectionMethods:
   Enabled: false
 Style/ColonMethodCall:
+  Enabled: false
+Style/ColonMethodDefinition:
   Enabled: false
 Style/CommandLiteral:
   Enabled: false
@@ -287,11 +301,29 @@ Style/CommentedKeyword:
   Enabled: false
 Style/ConditionalAssignment:
   Enabled: false
+Style/ConstantVisibility:
+  Enabled: false
+Style/Copyright:
+  Enabled: false
+Style/DateTime:
+  Enabled: false
 Style/DefWithParentheses:
+  Enabled: false
+Style/Dir:
   Enabled: false
 Style/Documentation:
   Enabled: false
+Style/DocumentationMethod:
+  Enabled: false
+Style/DoubleCopDisableDirective:
+  Enabled: false
 Style/DoubleNegation:
+  Enabled: false
+Style/EachForSimpleLoop:
+  Enabled: false
+Style/EachWithObject:
+  Enabled: false
+Style/EmptyBlockParameter:
   Enabled: false
 Style/EmptyCaseCondition:
   Enabled: false
@@ -307,7 +339,11 @@ Style/Encoding:
   Enabled: false
 Style/EndBlock:
   Enabled: false
+Style/EvalWithLocation:
+  Enabled: false
 Style/EvenOdd:
+  Enabled: false
+Style/ExpandPathArguments:
   Enabled: false
 Style/FloatDivision:
   Enabled: false
@@ -319,17 +355,31 @@ Style/FormatStringToken:
   Enabled: false
 Style/FrozenStringLiteralComment:
   Enabled: false
+Style/GlobalVars:
+  Enabled: false
 Style/GuardClause:
   Enabled: false
 Style/HashSyntax:
+  Enabled: false
+Style/IdenticalConditionalBranches:
   Enabled: false
 Style/IfInsideElse:
   Enabled: false
 Style/IfUnlessModifier:
   Enabled: false
+Style/IfUnlessModifierOfIfUnless:
+  Enabled: false
+Style/IfWithSemicolon:
+  Enabled: false
+Style/ImplicitRuntimeError:
+  Enabled: false
 Style/InfiniteLoop:
   Enabled: false
+Style/InlineComment:
+  Enabled: false
 Style/InverseMethods:
+  Enabled: false
+Style/IpAddresses:
   Enabled: false
 Style/Lambda:
   Enabled: false
@@ -341,29 +391,39 @@ Style/MethodCallWithArgsParentheses:
   Enabled: false
 Style/MethodCallWithoutArgsParentheses:
   Enabled: false
+Style/MethodCalledOnDoEndBlock:
+  Enabled: false
 Style/MethodDefParentheses:
   Enabled: false
 Style/MethodMissingSuper:
+  Enabled: false
+Style/MinMax:
+  Enabled: false
+Style/MissingElse:
   Enabled: false
 Style/MissingRespondToMissing:
   Enabled: false
 Style/MixinGrouping:
   Enabled: false
+Style/MixinUsage:
+  Enabled: false
 Style/ModuleFunction:
   Enabled: false
 Style/MultilineBlockChain:
+  Enabled: false
+Style/MultilineIfModifier:
   Enabled: false
 Style/MultilineIfThen:
   Enabled: false
 Style/MultilineMemoization:
   Enabled: false
-Style/MultilineIfModifier:
+Style/MultilineMethodSignature:
   Enabled: false
 Style/MultilineTernaryOperator:
   Enabled: false
-Style/MultipleComparison:
-  Enabled: false
 Style/MultilineWhenThen:
+  Enabled: false
+Style/MultipleComparison:
   Enabled: false
 Style/MutableConstant:
   Enabled: false
@@ -372,6 +432,8 @@ Style/NegatedIf:
 Style/NegatedUnless:
   Enabled: false
 Style/NegatedWhile:
+  Enabled: false
+Style/NestedModifier:
   Enabled: false
 Style/NestedParenthesizedCalls:
   Enabled: false
@@ -393,11 +455,15 @@ Style/NumericPredicate:
   Enabled: false
 Style/OneLineConditional:
   Enabled: false
-Style/OptionalArguments:
-  Enabled: false
 Style/OptionHash:
   Enabled: false
+Style/OptionalArguments:
+  Enabled: false
+Style/OrAssignment:
+  Enabled: false
 Style/ParallelAssignment:
+  Enabled: false
+Style/ParenthesesAroundCondition:
   Enabled: false
 Style/PercentLiteralDelimiters:
   Enabled: false
@@ -411,9 +477,15 @@ Style/Proc:
   Enabled: false
 Style/RaiseArgs:
   Enabled: false
+Style/RandomWithOffset:
+  Enabled: false
 Style/RedundantBegin:
   Enabled: false
+Style/RedundantConditional:
+  Enabled: false
 Style/RedundantException:
+  Enabled: false
+Style/RedundantFreeze:
   Enabled: false
 Style/RedundantParentheses:
   Enabled: false
@@ -421,9 +493,21 @@ Style/RedundantReturn:
   Enabled: false
 Style/RedundantSelf:
   Enabled: false
+Style/RedundantSortBy:
+  Enabled: false
 Style/RegexpLiteral:
   Enabled: false
 Style/RescueModifier:
+  Enabled: false
+Style/RescueStandardError:
+  Enabled: false
+Style/ReturnNil:
+  Enabled: false
+Style/SafeNavigation:
+  Enabled: false
+Style/Sample:
+  Enabled: false
+Style/SelfAssignment:
   Enabled: false
 Style/Semicolon:
   Enabled: false
@@ -439,11 +523,17 @@ Style/SpecialGlobalVars:
   Enabled: false
 Style/StabbyLambdaParentheses:
   Enabled: false
+Style/StderrPuts:
+  Enabled: false
+Style/StringHashKeys:
+  Enabled: false
 Style/StringLiterals:
   Enabled: false
 Style/StringLiteralsInInterpolation:
   Enabled: false
 Style/StringMethods:
+  Enabled: false
+Style/Strip:
   Enabled: false
 Style/StructInheritance:
   Enabled: false
@@ -455,11 +545,19 @@ Style/SymbolProc:
   Enabled: false
 Style/TernaryParentheses:
   Enabled: false
+Style/TrailingBodyOnClass:
+  Enabled: false
+Style/TrailingBodyOnMethodDefinition:
+  Enabled: false
+Style/TrailingBodyOnModule:
+  Enabled: false
 Style/TrailingCommaInArguments:
   Enabled: false
 Style/TrailingCommaInArrayLiteral:
   Enabled: false
 Style/TrailingCommaInHashLiteral:
+  Enabled: false
+Style/TrailingMethodEndStatement:
   Enabled: false
 Style/TrailingUnderscoreVariable:
   Enabled: false
@@ -467,9 +565,19 @@ Style/TrivialAccessors:
   Enabled: false
 Style/UnlessElse:
   Enabled: false
+Style/UnneededCapitalW:
+  Enabled: false
+Style/UnneededCondition:
+  Enabled: false
 Style/UnneededInterpolation:
   Enabled: false
 Style/UnneededPercentQ:
+  Enabled: false
+Style/UnneededSort:
+  Enabled: false
+Style/UnpackFirst:
+  Enabled: false
+Style/VariableInterpolation:
   Enabled: false
 Style/WhenThen:
   Enabled: false
@@ -483,8 +591,7 @@ Style/YodaCondition:
   Enabled: false
 Style/ZeroLengthPredicate:
   Enabled: false
-Style/AccessModifierDeclarations:
-  Enabled: false
+# === Disabled cops: END ===
 
 Gemspec/OrderedDependencies:
   Enabled: false
