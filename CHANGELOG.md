@@ -3,6 +3,7 @@
 ## Unreleased
 
 - [#69](https://github.com/sider/meowcop/pull/69): Lighten the archived gem size
+- [#74](https://github.com/sider/meowcop/pull/74): Set `>= 2.3.0` to `required_ruby_version`
 
 ## 2.3.1 (2019-10-01)
 
