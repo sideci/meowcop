@@ -12,6 +12,9 @@ AllCops:
 Bundler/OrderedGems:
   Enabled: false
 
+Gemspec/OrderedDependencies:
+  Enabled: false
+
 Lint/AmbiguousRegexpLiteral:
   Enabled: false
 Lint/AssignmentInCondition:
@@ -525,8 +528,6 @@ Style/StabbyLambdaParentheses:
   Enabled: false
 Style/StderrPuts:
   Enabled: false
-Style/StringHashKeys:
-  Enabled: false
 Style/StringLiterals:
   Enabled: false
 Style/StringLiteralsInInterpolation:
@@ -593,11 +594,9 @@ Style/ZeroLengthPredicate:
   Enabled: false
 # === Disabled cops: END ===
 
-Gemspec/OrderedDependencies:
-  Enabled: false
-
-# ------------- Enabled cops
-
+# THIS BLOCK IS AUTO-GENERATED. DO NOT EDIT.
+# === Enabled cops: BEGIN ===
 # In many cases, hash keys should be a symbol, not a string.
 Style/StringHashKeys:
   Enabled: true
+# === Enabled cops: END ===
