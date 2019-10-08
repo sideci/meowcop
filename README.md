@@ -92,7 +92,8 @@ To release a new version,
 
 1. Update the version number in [`version.rb`](lib/meowcop/version.rb).
 2. Update the [changelog](CHANGELOG.md).
-3. Run the following command, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+3. Commit the updated files with the following format message: `Release x.y.z`
+4. Run the following command, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ```sh
 $ bundle exec rake release
