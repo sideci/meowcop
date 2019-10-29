@@ -29,7 +29,7 @@ Lint/Loop:
   Enabled: false
 Lint/RescueException:
   Enabled: false
-Lint/UnneededCopDisableDirective:
+Lint/RedundantCopDisableDirective:
   Enabled: false
 Lint/UnusedBlockArgument:
   Enabled: false
@@ -484,17 +484,27 @@ Style/RandomWithOffset:
   Enabled: false
 Style/RedundantBegin:
   Enabled: false
+Style/RedundantCapitalW:
+  Enabled: false
+Style/RedundantCondition:
+  Enabled: false
 Style/RedundantConditional:
   Enabled: false
 Style/RedundantException:
   Enabled: false
 Style/RedundantFreeze:
   Enabled: false
+Style/RedundantInterpolation:
+  Enabled: false
 Style/RedundantParentheses:
+  Enabled: false
+Style/RedundantPercentQ:
   Enabled: false
 Style/RedundantReturn:
   Enabled: false
 Style/RedundantSelf:
+  Enabled: false
+Style/RedundantSort:
   Enabled: false
 Style/RedundantSortBy:
   Enabled: false
@@ -565,16 +575,6 @@ Style/TrailingUnderscoreVariable:
 Style/TrivialAccessors:
   Enabled: false
 Style/UnlessElse:
-  Enabled: false
-Style/UnneededCapitalW:
-  Enabled: false
-Style/UnneededCondition:
-  Enabled: false
-Style/UnneededInterpolation:
-  Enabled: false
-Style/UnneededPercentQ:
-  Enabled: false
-Style/UnneededSort:
   Enabled: false
 Style/UnpackFirst:
   Enabled: false
