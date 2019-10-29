@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- [#80](https://github.com/sider/meowcop/pull/80): Follow up of RuboCop v0.76 (including breaking changes)
+
 ## 2.4.0 (2019-10-08)
 
 - [#69](https://github.com/sider/meowcop/pull/69): Lighten the archived gem size
