@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 2.6.0 (2019-11-28)
+
 - [#82](https://github.com/sider/meowcop/pull/82): Change the gem's author
 - [#83](https://github.com/sider/meowcop/pull/83): Follow up RuboCop v0.77 (including breaking changes)
 
