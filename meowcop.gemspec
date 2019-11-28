@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "meowcop"
   spec.version       = Meowcop::VERSION
   spec.licenses      = ["MIT"]
-  spec.authors       = ["Masataka Kuwabara", "Sider, Inc."]
+  spec.authors       = ["Sleeek Corporation"]
   spec.email         = "support@sider.review"
 
   spec.summary       = %q{A RuboCop configuration focusing Lint}
