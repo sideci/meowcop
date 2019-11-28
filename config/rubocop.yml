@@ -23,7 +23,7 @@ Lint/AssignmentInCondition:
 # See. http://tech.sideci.com/entry/2016/11/01/105900
 Lint/EmptyWhen:
   Enabled: false
-Lint/HandleExceptions:
+Lint/SuppressedException:
   Enabled: false
 Lint/Loop:
   Enabled: false
@@ -78,13 +78,13 @@ Security/YAMLLoad:
 
 Layout/AccessModifierIndentation:
   Enabled: false
-Layout/AlignArguments:
+Layout/ArgumentAlignment:
   Enabled: false
-Layout/AlignArray:
+Layout/ArrayAlignment:
   Enabled: false
-Layout/AlignHash:
+Layout/HashAlignment:
   Enabled: false
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   Enabled: false
 Layout/BlockEndNewline:
   Enabled: false
@@ -126,21 +126,21 @@ Layout/ExtraSpacing:
   Enabled: false
 Layout/HeredocArgumentClosingParenthesis:
   Enabled: false
-Layout/IndentFirstArgument:
+Layout/FirstArgumentIndentation:
   Enabled: false
-Layout/IndentFirstArrayElement:
+Layout/FirstArrayElementIndentation:
   Enabled: false
-Layout/IndentFirstParameter:
+Layout/FirstParameterIndentation:
   Enabled: false
-Layout/IndentAssignment:
+Layout/AssignmentIndentation:
   Enabled: false
 Layout/IndentationConsistency:
   Enabled: false
 Layout/IndentationWidth:
   Enabled: false
-Layout/IndentFirstHashElement:
+Layout/FirstHashElementIndentation:
   Enabled: false
-Layout/IndentHeredoc:
+Layout/HeredocIndentation:
   Enabled: false
 Layout/InitialIndentation:
   Enabled: false
@@ -212,7 +212,7 @@ Layout/SpaceInsideReferenceBrackets:
   Enabled: false
 Layout/SpaceInsideStringInterpolation:
   Enabled: false
-Layout/TrailingBlankLines:
+Layout/TrailingEmptyLines:
   Enabled: false
 Layout/TrailingWhitespace:
   Enabled: false
@@ -224,7 +224,7 @@ Layout/EndAlignment:
   Enabled: false
 Layout/ClosingHeredocIndentation:
   Enabled: false
-Layout/LeadingBlankLines:
+Layout/LeadingEmptyLines:
   Enabled: false
 
 Naming/AccessorMethodName:
@@ -247,9 +247,9 @@ Naming/VariableName:
   Enabled: false
 Naming/VariableNumber:
   Enabled: false
-Naming/UncommunicativeBlockParamName:
+Naming/BlockParameterName:
   Enabled: false
-Naming/UncommunicativeMethodParamName:
+Naming/MethodParameterName:
   Enabled: false
 
 # THIS BLOCK IS AUTO-GENERATED. DO NOT EDIT.
