@@ -22,3 +22,28 @@ jobs:
       - run: gem install bundler --no-document
       - run: bundle install --jobs=4 --retry=3 --path=vendor/bundle
       - run: bundle exec rake
+
+  # HACK: Ruby 2.3 has not been supported officially.
+  # See https://github.blog/changelog/2019-10-17-github-actions-removing-python-3-4-and-ruby-2-3-from-the-virtual-environments/
+  test-on-ruby-2_3:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install Ruby 2.3
+        run: |
+          cd /tmp
+          git clone --branch v20191205 --single-branch https://github.com/rbenv/ruby-build.git
+          sudo PREFIX=/usr/local ./ruby-build/install.sh
+          sudo apt-get update -y
+          sudo apt-get install -y --no-install-recommends libssl1.0-dev libreadline-dev
+          sudo CC=$(which gcc-6) ruby-build 2.3.8 /usr/local/ruby-2.3
+          sudo ln -sv /usr/local/ruby-2.3/bin/* /usr/local/bin/
+      - run: ruby -v
+      - run: sudo gem update --system
+      - run: gem -v
+      - run: |
+          sudo gem install bundler --no-document
+          sudo ln -sv /usr/local/ruby-2.3/bin/bundle /usr/local/bin/
+      - run: bundle -v
+      - run: bundle install --jobs=4 --retry=3 --path=vendor/bundle
+      - run: bundle exec rake
