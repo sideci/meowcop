@@ -55,8 +55,6 @@ Metrics/ClassLength:
   Enabled: false
 Metrics/CyclomaticComplexity:
   Max: 10
-Metrics/LineLength:
-  Max: 200
 Metrics/MethodLength:
   Enabled: false
 Metrics/ModuleLength:
@@ -146,6 +144,8 @@ Layout/InitialIndentation:
   Enabled: false
 Layout/LeadingCommentSpace:
   Enabled: false
+Layout/LineLength:
+  Max: 200
 Layout/MultilineArrayBraceLayout:
   Enabled: false
 Layout/MultilineAssignmentLayout:
