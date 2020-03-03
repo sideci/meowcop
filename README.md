@@ -3,7 +3,7 @@
 [![Gem Version](https://badge.fury.io/rb/meowcop.svg)](https://badge.fury.io/rb/meowcop)
 
 MeowCop is a gem for shareable [RuboCop](https://www.rubocop.org) configuration, it focuses [Lint](https://en.wikipedia.org/wiki/Lint_(software)).
-It's recommended by Sider, Inc.
+It's recommended by Sider.
 
 ## Design
 

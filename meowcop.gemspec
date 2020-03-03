@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = "support@sider.review"
 
   spec.summary       = %q{A RuboCop configuration focusing Lint}
-  spec.description   = %q{MeowCop is a RuboCop configuration recommended by Sider, Inc.}
+  spec.description   = %q{MeowCop is a RuboCop configuration recommended by Sider.}
   spec.homepage      = "https://github.com/sider/meowcop"
 
   spec.metadata = {
