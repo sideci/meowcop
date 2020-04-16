@@ -3,11 +3,16 @@ require "rubocop"
 
 class CLITest < Minitest::Test
   def setup
+    @origdir = Dir.pwd
+    @workdir = Dir.mktmpdir
+    Dir.chdir @workdir
+
     @cli = Meowcop::CLI.new
   end
 
   def teardown
-    FileUtils.rm_f ".rubocop.yml"
+    Dir.chdir @origdir
+    FileUtils.remove_entry @workdir
   end
 
   def test_start_when_invalid_command
@@ -31,7 +36,7 @@ class CLITest < Minitest::Test
 
   def test_run
     rubocop_cli = Minitest::Mock.new
-    rubocop_cli.expect :run, 0, [["--config", File.absolute_path("examples/.rubocop.yml"), "--foo", "bar"]]
+    rubocop_cli.expect :run, 0, [["--config", Pathname(@origdir).join("examples/.rubocop.yml").to_s, "--foo", "bar"]]
 
     RuboCop::CLI.stub :new, rubocop_cli do
       assert_equal 0, @cli.run(["--foo", "bar"])
