@@ -14,11 +14,13 @@ Gem::Specification.new do |spec|
   spec.description   = %q{MeowCop is a RuboCop configuration recommended by Sider.}
   spec.homepage      = "https://github.com/sider/meowcop"
 
+  # rubocop:disable Style/StringHashKeys
   spec.metadata = {
     "bug_tracker_uri" => "https://github.com/sider/meowcop/issues",
     "changelog_uri" => "https://github.com/sider/meowcop/blob/master/CHANGELOG.md",
     "source_code_uri" => "https://github.com/sider/meowcop"
   }
+  # rubocop:enable Style/StringHashKeys
 
   spec.files         = Dir["LICENSE", "README.md", "config/**", "examples/.*.yml", "exe/**", "lib/**/*.rb"]
   spec.bindir        = "exe"
