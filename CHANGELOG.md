@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+- [#92](https://github.com/sider/meowcop/pull/92): Follow up RuboCop v0.82 (breaking)
+
+### Breaking Change
+
+RuboCop 0.82 has dropped the support for Ruby 2.3. It requires Ruby 2.4+.
+
 ## 2.8.0 (2020-02-19)
 
 - [#89](https://github.com/sider/meowcop/pull/89): Follow up RuboCop v0.80 (breaking)

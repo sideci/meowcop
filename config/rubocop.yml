@@ -312,6 +312,8 @@ Style/DefWithParentheses:
   Enabled: false
 Style/Dir:
   Enabled: false
+Style/DisableCopsWithinSourceCodeDirective:
+  Enabled: false
 Style/Documentation:
   Enabled: false
 Style/DocumentationMethod:
@@ -345,6 +347,8 @@ Style/EvalWithLocation:
 Style/EvenOdd:
   Enabled: false
 Style/ExpandPathArguments:
+  Enabled: false
+Style/ExponentialNotation:
   Enabled: false
 Style/FloatDivision:
   Enabled: false
@@ -569,6 +573,8 @@ Style/TrailingBodyOnModule:
 Style/TrailingCommaInArguments:
   Enabled: false
 Style/TrailingCommaInArrayLiteral:
+  Enabled: false
+Style/TrailingCommaInBlockArgs:
   Enabled: false
 Style/TrailingCommaInHashLiteral:
   Enabled: false
