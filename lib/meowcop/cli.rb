@@ -23,17 +23,24 @@
 # THE SOFTWARE.
 require 'fileutils'
 
-module Meowcop
+module MeowCop
   class CLI
     CONFIG_FILE_NAME = ".rubocop.yml".freeze
+
+    EXIT_SUCCESS = 0
+    EXIT_FAILURE = 1
+
+    Options = Struct.new(:version, :help)
 
     def self.start(args)
       action_name = args.shift || 'help'
 
       instance = self.new
+
       unless instance.public_methods(false).include?(action_name.to_sym)
-        puts "Could not find command #{action_name}."
-        action_name = 'help'
+        puts "Could not find command '#{action_name}'."
+        instance.help(args)
+        return EXIT_FAILURE
       end
 
       instance.public_send(action_name, args)
@@ -44,30 +51,33 @@ module Meowcop
       FileUtils.copy_file(config_file_path, CONFIG_FILE_NAME)
       puts "Meow! #{CONFIG_FILE_NAME} has been #{action} successfully."
 
-      return 0
+      EXIT_SUCCESS
     end
 
     def run(args)
       require 'rubocop'
 
-      cli = RuboCop::CLI.new
-      args = [
-        '--config', config_file_path,
-        *args
-      ]
-      cli.run(args)
+      RuboCop::CLI.new.run(['--config', config_file_path, *args])
     end
 
     def help(_args)
-      msg = <<-END
-MeowCop commands:
-  init - Setup .rubocop.yml
-  help - Show this message
-  run  - Run RuboCop with MeowCop
-      END
-      puts msg
+      puts <<-END
+Usage: meowcop <command>
 
-      return 0
+Commands:
+    init           Setup .rubocop.yml
+    run            Run RuboCop with MeowCop
+    version        Show version
+    help           Show help
+END
+
+      EXIT_SUCCESS
+    end
+
+    def version(_args)
+      puts VERSION
+
+      EXIT_SUCCESS
     end
 
     private

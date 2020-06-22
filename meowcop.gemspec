@@ -5,7 +5,7 @@ require 'meowcop/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "meowcop"
-  spec.version       = Meowcop::VERSION
+  spec.version       = MeowCop::VERSION
   spec.licenses      = ["MIT"]
   spec.authors       = ["Sleeek Corporation"]
   spec.email         = "support@sider.review"
