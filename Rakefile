@@ -16,12 +16,8 @@ end
 
 desc "Run smoke tests"
 task :smoke do
-  sh "docker build -t meowcop/smoke -f test/smoke/Dockerfile ."
-  sh "docker run --rm meowcop/smoke" do |ok|
-    unless ok
-      sh "docker run --rm --entrypoint=rubocop meowcop/smoke test/smoke --format=simple"
-    end
-  end
+  sh "docker", "build", "-t", "meowcop/smoke", "-f", "test/smoke/Dockerfile", "."
+  sh "docker", "run", "--rm", "meowcop/smoke"
 end
 
 namespace :config do

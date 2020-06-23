@@ -18,5 +18,5 @@ RUN rake install && \
     echo '  Enabled: true' >> .rubocop.yml && \
     cat .rubocop.yml
 
-ENTRYPOINT meowcop run test/meowcop && \
-           test "$(rubocop test/smoke --format=simple)" = "$(cat test/smoke/expectation-output.txt)"
+ENTRYPOINT test "$(rubocop test/smoke --format=simple 2>&1)" = "$(cat test/smoke/expectation-output.txt)" && \
+           test "$(meowcop run test/smoke --format=simple 2>&1)" = "$(cat test/smoke/expectation-output2.txt)"
