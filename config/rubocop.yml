@@ -106,6 +106,8 @@ Layout/EmptyLineAfterGuardClause:
   Enabled: false
 Layout/EmptyLinesAroundAccessModifier:
   Enabled: false
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: false
 Layout/EmptyLinesAroundBeginBody:
   Enabled: false
 Layout/EmptyLinesAroundBlockBody:
@@ -179,6 +181,8 @@ Layout/SpaceAroundBlockParameters:
 Layout/SpaceAroundEqualsInParameterDefault:
   Enabled: false
 Layout/SpaceAroundKeyword:
+  Enabled: false
+Layout/SpaceAroundMethodCallOperator:
   Enabled: false
 Layout/SpaceAroundOperators:
   Enabled: false
@@ -500,6 +504,8 @@ Style/RedundantConditional:
   Enabled: false
 Style/RedundantException:
   Enabled: false
+Style/RedundantFetchBlock:
+  Enabled: false
 Style/RedundantFreeze:
   Enabled: false
 Style/RedundantInterpolation:
@@ -507,6 +513,10 @@ Style/RedundantInterpolation:
 Style/RedundantParentheses:
   Enabled: false
 Style/RedundantPercentQ:
+  Enabled: false
+Style/RedundantRegexpCharacterClass:
+  Enabled: false
+Style/RedundantRegexpEscape:
   Enabled: false
 Style/RedundantReturn:
   Enabled: false
@@ -539,6 +549,8 @@ Style/SignalException:
 Style/SingleLineBlockParams:
   Enabled: false
 Style/SingleLineMethods:
+  Enabled: false
+Style/SlicingWithRange:
   Enabled: false
 Style/SpecialGlobalVars:
   Enabled: false
