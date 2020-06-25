@@ -1,6 +1,9 @@
 require "meowcop/version"
 require 'meowcop/cli'
 
-module Meowcop
+module MeowCop
   # Your code goes here...
 end
+
+# Ensure backward compatibility
+Meowcop = MeowCop
