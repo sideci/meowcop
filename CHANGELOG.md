@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 2.10.0 (2020-07-01)
+
 - [#97](https://github.com/sider/meowcop/pull/97): Follow up RuboCop v0.86
 - [#98](https://github.com/sider/meowcop/pull/98): Empower CLI
 
