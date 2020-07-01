@@ -52,7 +52,7 @@ class CLITest < Minitest::Test
   end
 
   def test_version
-    expected = "2.9.0\n"
+    expected = "#{MeowCop::VERSION}\n"
     assert_output(expected) do
       assert_equal 0, CLI.start(["version"])
     end
