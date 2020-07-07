@@ -260,6 +260,8 @@ Naming/MethodParameterName:
 # === Disabled cops: BEGIN ===
 Style/AccessModifierDeclarations:
   Enabled: false
+Style/AccessorGrouping:
+  Enabled: false
 Style/Alias:
   Enabled: false
 Style/AndOr:
@@ -275,6 +277,8 @@ Style/AutoResourceCleanup:
 Style/BarePercentLiterals:
   Enabled: false
 Style/BeginBlock:
+  Enabled: false
+Style/BisectedAttrAccessor:
   Enabled: false
 Style/BlockComments:
   Enabled: false
@@ -494,6 +498,8 @@ Style/RaiseArgs:
   Enabled: false
 Style/RandomWithOffset:
   Enabled: false
+Style/RedundantAssignment:
+  Enabled: false
 Style/RedundantBegin:
   Enabled: false
 Style/RedundantCapitalW:
@@ -501,8 +507,6 @@ Style/RedundantCapitalW:
 Style/RedundantCondition:
   Enabled: false
 Style/RedundantConditional:
-  Enabled: false
-Style/RedundantException:
   Enabled: false
 Style/RedundantFetchBlock:
   Enabled: false
