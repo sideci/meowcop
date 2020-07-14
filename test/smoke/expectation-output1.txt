@@ -1,5 +1,6 @@
 The following cops were added to RuboCop, but are not configured. Please set Enabled to either `true` or `false` in your `.rubocop.yml` file:
  - Lint/DeprecatedOpenSSLConstant (0.84)
+ - Lint/DuplicateElsifCondition (0.88)
  - Lint/MixedRegexpCaptureTypes (0.85)
  - Lint/RaiseException (0.81)
  - Lint/StructNewOverride (0.81)
