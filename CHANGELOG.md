@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- [#103](https://github.com/sider/meowcop/pull/103): Follow up RuboCop v0.88
+
 ## 2.11.0 (2020-07-08)
 
 - [#100](https://github.com/sider/meowcop/pull/100): Follow up RuboCop v0.87
