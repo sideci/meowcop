@@ -1,0 +1,13 @@
+name: Check latest RuboCop
+
+on:
+  schedule:
+    - cron: "0 0 * * 1-5"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bundle install
+      - run: bundle exec rake
