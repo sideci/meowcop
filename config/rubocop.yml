@@ -266,6 +266,8 @@ Style/Alias:
   Enabled: false
 Style/AndOr:
   Enabled: false
+Style/ArrayCoercion:
+  Enabled: false
 Style/ArrayJoin:
   Enabled: false
 Style/AsciiComments:
@@ -285,6 +287,8 @@ Style/BlockComments:
 Style/BlockDelimiters:
   Enabled: false
 Style/CaseEquality:
+  Enabled: false
+Style/CaseLikeIf:
   Enabled: false
 Style/CharacterLiteral:
   Enabled: false
@@ -372,7 +376,11 @@ Style/GlobalVars:
   Enabled: false
 Style/GuardClause:
   Enabled: false
+Style/HashAsLastArrayItem:
+  Enabled: false
 Style/HashEachMethods:
+  Enabled: false
+Style/HashLikeCase:
   Enabled: false
 Style/HashSyntax:
   Enabled: false
@@ -508,7 +516,11 @@ Style/RedundantCondition:
   Enabled: false
 Style/RedundantConditional:
   Enabled: false
+Style/RedundantException:
+  Enabled: false
 Style/RedundantFetchBlock:
+  Enabled: false
+Style/RedundantFileExtensionInRequire:
   Enabled: false
 Style/RedundantFreeze:
   Enabled: false

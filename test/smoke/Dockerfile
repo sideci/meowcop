@@ -1,4 +1,4 @@
-FROM rubylang/ruby:latest
+FROM ruby:2.7
 
 RUN mkdir /work
 WORKDIR /work
@@ -17,6 +17,8 @@ RUN rake install && \
     echo 'Style/ZeroLengthPredicate:' >> .rubocop.yml && \
     echo '  Enabled: true' >> .rubocop.yml && \
     cat .rubocop.yml
+RUN rubocop test/smoke --format=simple > output1.txt 2>&1 || :
+RUN meowcop run test/smoke --format=simple > output2.txt 2>&1 || :
 
-ENTRYPOINT test "$(rubocop test/smoke --format=simple 2>&1)" = "$(cat test/smoke/expectation-output.txt)" && \
-           test "$(meowcop run test/smoke --format=simple 2>&1)" = "$(cat test/smoke/expectation-output2.txt)"
+ENTRYPOINT diff -u output1.txt test/smoke/expectation-output1.txt && \
+           diff -u output2.txt test/smoke/expectation-output2.txt

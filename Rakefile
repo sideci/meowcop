@@ -32,7 +32,7 @@ namespace :config do
     ]
     enabled_cop_names = enabled_cops.map { |cop| cop.fetch(:name) }
 
-    disabled_cops = RuboCop::Cop::Cop.descendants.map(&:name).sort.flat_map do |cop_class_name|
+    disabled_cops = RuboCop::Cop::Base.descendants.map(&:name).sort.flat_map do |cop_class_name|
       # Disable all Style cops
       next if cop_class_name.deconstantize != RuboCop::Cop::Style.name
 
@@ -75,7 +75,9 @@ namespace :config do
 
   desc "Verify the generated configuration file"
   task :verify do
-    system("git diff --exit-code --quiet '#{config_file}'") or abort "Commit changed #{config_file}."
+    sh "git", "diff", "--exit-code", config_file.to_path do |success|
+      success or abort "\n=> Uncommitted file is found: `#{config_file.relative_path_from(__dir__)}`"
+    end
   end
 
   def config_file
