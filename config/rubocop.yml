@@ -360,6 +360,8 @@ Style/EvenOdd:
   Enabled: false
 Style/ExpandPathArguments:
   Enabled: false
+Style/ExplicitBlockArgument:
+  Enabled: false
 Style/ExponentialNotation:
   Enabled: false
 Style/FloatDivision:
@@ -371,6 +373,8 @@ Style/FormatString:
 Style/FormatStringToken:
   Enabled: false
 Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/GlobalStdStream:
   Enabled: false
 Style/GlobalVars:
   Enabled: false
@@ -421,8 +425,6 @@ Style/MethodCallWithoutArgsParentheses:
 Style/MethodCalledOnDoEndBlock:
   Enabled: false
 Style/MethodDefParentheses:
-  Enabled: false
-Style/MethodMissingSuper:
   Enabled: false
 Style/MinMax:
   Enabled: false
@@ -485,6 +487,8 @@ Style/OneLineConditional:
 Style/OptionHash:
   Enabled: false
 Style/OptionalArguments:
+  Enabled: false
+Style/OptionalBooleanParameter:
   Enabled: false
 Style/OrAssignment:
   Enabled: false
@@ -562,6 +566,8 @@ Style/Send:
   Enabled: false
 Style/SignalException:
   Enabled: false
+Style/SingleArgumentDig:
+  Enabled: false
 Style/SingleLineBlockParams:
   Enabled: false
 Style/SingleLineMethods:
@@ -573,6 +579,8 @@ Style/SpecialGlobalVars:
 Style/StabbyLambdaParentheses:
   Enabled: false
 Style/StderrPuts:
+  Enabled: false
+Style/StringConcatenation:
   Enabled: false
 Style/StringLiterals:
   Enabled: false
