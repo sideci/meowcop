@@ -3,6 +3,8 @@ name: Test edge
 on:
   schedule:
     - cron: "0 0 * * 1-5"
+  workflow_dispatch:
+    branches: ["**"]
 
 jobs:
   test:
