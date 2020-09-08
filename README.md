@@ -56,8 +56,6 @@ inherit_gem:
 #   EnforcedStyle: always
 ```
 
-### Example
-
 See this [example](examples/.rubocop.yml).
 
 ## Usage
