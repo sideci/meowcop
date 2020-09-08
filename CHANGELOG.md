@@ -3,6 +3,7 @@
 ## Unreleased
 
 - [#107](https://github.com/sider/meowcop/pull/107): Follow up RuboCop v0.90
+- [#108](https://github.com/sider/meowcop/pull/108): Remove `AllCops.TargetRubyVersion`
 
 ## 2.13.0 (2020-08-06)
 
