@@ -1,21 +1,5 @@
-The following cops were added to RuboCop, but are not configured. Please set Enabled to either `true` or `false` in your `.rubocop.yml` file:
- - Lint/BinaryOperatorWithIdenticalOperands (0.89)
- - Lint/DeprecatedOpenSSLConstant (0.84)
- - Lint/DuplicateElsifCondition (0.88)
- - Lint/DuplicateRescueException (0.89)
- - Lint/EmptyConditionalBody (0.89)
- - Lint/FloatComparison (0.89)
- - Lint/MissingSuper (0.89)
- - Lint/MixedRegexpCaptureTypes (0.85)
- - Lint/OutOfRangeRegexpRef (0.89)
- - Lint/RaiseException (0.81)
- - Lint/SelfAssignment (0.89)
- - Lint/StructNewOverride (0.81)
- - Lint/TopLevelReturnWithArgument (0.89)
- - Lint/UnreachableLoop (0.89)
-For more information: https://docs.rubocop.org/rubocop/versioning.html
 == test/smoke/test.rb ==
 C:  5: 10: Style/StringHashKeys: Prefer symbols instead of strings as hash keys. (https://rubystyle.guide#symbols-as-keys)
 C:  7:  1: Style/ZeroLengthPredicate: Use empty? instead of length == 0.
 
-1 file inspected, 2 offenses detected
+1 file inspected, 2 offenses detected, 2 offenses auto-correctable

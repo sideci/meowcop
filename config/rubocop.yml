@@ -298,6 +298,8 @@ Style/ClassCheck:
   Enabled: false
 Style/ClassMethods:
   Enabled: false
+Style/ClassMethodsDefinitions:
+  Enabled: false
 Style/ClassVars:
   Enabled: false
 Style/CollectionMethods:
@@ -305,6 +307,8 @@ Style/CollectionMethods:
 Style/ColonMethodCall:
   Enabled: false
 Style/ColonMethodDefinition:
+  Enabled: false
+Style/CombinableLoops:
   Enabled: false
 Style/CommandLiteral:
   Enabled: false
@@ -411,6 +415,8 @@ Style/InlineComment:
 Style/InverseMethods:
   Enabled: false
 Style/IpAddresses:
+  Enabled: false
+Style/KeywordParametersOrder:
   Enabled: false
 Style/Lambda:
   Enabled: false
@@ -542,6 +548,8 @@ Style/RedundantReturn:
   Enabled: false
 Style/RedundantSelf:
   Enabled: false
+Style/RedundantSelfAssignment:
+  Enabled: false
 Style/RedundantSort:
   Enabled: false
 Style/RedundantSortBy:
@@ -573,6 +581,8 @@ Style/SingleLineBlockParams:
 Style/SingleLineMethods:
   Enabled: false
 Style/SlicingWithRange:
+  Enabled: false
+Style/SoleNestedConditional:
   Enabled: false
 Style/SpecialGlobalVars:
   Enabled: false
