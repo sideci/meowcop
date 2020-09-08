@@ -1,3 +1,3 @@
 module MeowCop
-  VERSION = "2.13.0".freeze
+  VERSION = "2.14.0".freeze
 end
