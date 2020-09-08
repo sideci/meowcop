@@ -49,10 +49,6 @@ inherit_gem:
   meowcop:
     - config/rubocop.yml
 
-# Modify the version if you don't use MRI 2.6.
-AllCops:
-  TargetRubyVersion: 2.6
-
 # You can customize RuboCop settings.
 # For example.
 # Style/FrozenStringLiteralComment:
