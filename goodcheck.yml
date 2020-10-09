@@ -1,0 +1,15 @@
+rules:
+  - id: meowcop.gemspec
+    glob: config/rubocop.yml
+    message: |
+      Confirm whether to need updating also the `meowcop.gemspec` file.
+
+      For example, when adding new cops, it may be needed to update version requirements as follows:
+
+      ```diff
+      -spec.add_dependency "rubocop", ">= 0.92.0", "< 1.0.0"
+      +spec.add_dependency "rubocop", ">= 0.93.0", "< 1.0.0"
+      ```
+    justification:
+      - When no need to update the gemspec.
+      - When the gemspec is already updated.
