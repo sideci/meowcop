@@ -10,3 +10,6 @@ rules:
       -spec.add_dependency "rubocop", ">= 0.92.0", "< 1.0.0"
       +spec.add_dependency "rubocop", ">= 0.93.0", "< 1.0.0"
       ```
+    justification:
+      - When no need to update the gemspec.
+      - When the gemspec is already updated.
