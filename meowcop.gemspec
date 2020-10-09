@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = ">= 2.4.0"
 
-  spec.add_dependency "rubocop", ">= 0.90.0", "< 1.0.0"
+  spec.add_dependency "rubocop", ">= 0.93.0", "< 1.0.0"
 
   spec.add_development_dependency "bundler", ">= 2.1"
   spec.add_development_dependency "rake", ">= 13.0"
