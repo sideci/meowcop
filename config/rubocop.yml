@@ -296,6 +296,8 @@ Style/ClassAndModuleChildren:
   Enabled: false
 Style/ClassCheck:
   Enabled: false
+Style/ClassEqualityComparison:
+  Enabled: false
 Style/ClassMethods:
   Enabled: false
 Style/ClassMethodsDefinitions:
