@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 2.15.1 (2020-10-22)
+
 - [#111](https://github.com/sider/meowcop/pull/111): Allow RuboCop requirement v1.0.0
 
 ## 2.15.0 (2020-10-09)
