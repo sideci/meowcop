@@ -1,5 +1,4 @@
 == test/smoke/test.rb ==
-C:  5: 10: Style/StringHashKeys: Prefer symbols instead of strings as hash keys. (https://rubystyle.guide#symbols-as-keys)
 C:  7:  1: Style/ZeroLengthPredicate: Use empty? instead of length == 0.
 
-1 file inspected, 2 offenses detected, 2 offenses auto-correctable
+1 file inspected, 1 offense detected, 1 offense auto-correctable

@@ -1,6 +1,4 @@
-# coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+$LOAD_PATH.unshift File.expand_path('lib', __dir__)
 require 'meowcop/version'
 
 Gem::Specification.new do |spec|
@@ -14,13 +12,11 @@ Gem::Specification.new do |spec|
   spec.description   = %q{MeowCop is a RuboCop configuration recommended by Sider.}
   spec.homepage      = "https://github.com/sider/meowcop"
 
-  # rubocop:disable Style/StringHashKeys
   spec.metadata = {
     "bug_tracker_uri" => "https://github.com/sider/meowcop/issues",
     "changelog_uri" => "https://github.com/sider/meowcop/blob/master/CHANGELOG.md",
     "source_code_uri" => "https://github.com/sider/meowcop"
   }
-  # rubocop:enable Style/StringHashKeys
 
   spec.files         = Dir["LICENSE", "README.md", "config/**", "examples/.*.yml", "exe/**", "lib/**/*.rb"]
   spec.bindir        = "exe"
@@ -29,7 +25,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = ">= 2.4.0"
 
-  spec.add_dependency "rubocop", ">= 0.93.0", "< 2.0.0"
+  spec.add_dependency "rubocop", ">= 1.0.0", "< 2.0.0"
 
   spec.add_development_dependency "bundler", ">= 2.1"
   spec.add_development_dependency "rake", ">= 13.0"

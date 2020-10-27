@@ -20,5 +20,5 @@ RUN rake install && \
 RUN rubocop test/smoke --format=simple --disable-pending-cops > output1.txt 2>&1 || :
 RUN meowcop run test/smoke --format=simple --disable-pending-cops > output2.txt 2>&1 || :
 
-ENTRYPOINT diff -u output1.txt test/smoke/expectation-output1.txt && \
-           diff -u output2.txt test/smoke/expectation-output2.txt
+ENTRYPOINT diff -u test/smoke/expectation-output1.txt output1.txt && \
+           diff -u test/smoke/expectation-output2.txt output2.txt
