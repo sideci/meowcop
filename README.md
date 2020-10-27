@@ -2,16 +2,16 @@
 
 [![Gem Version](https://badge.fury.io/rb/meowcop.svg)](https://badge.fury.io/rb/meowcop)
 
-MeowCop is a gem for shareable [RuboCop](https://www.rubocop.org) configuration, it focuses [Lint](https://en.wikipedia.org/wiki/Lint_(software)).
-It's recommended by Sider.
+MeowCop is a gem for shareable [RuboCop](https://rubocop.org) configuration, it focuses on [lint](https://en.wikipedia.org/wiki/Lint_(software)) (not style).
+It's recommended by [Sider](https://sider.review).
 
 ## Design
 
-RuboCop has many stylistic rules (RuboCop call a rule "Cop"). ["Style Cops"](https://www.rubocop.org/en/stable/cops_style/) provide one of several settings.
+RuboCop has many stylistic rules (RuboCop calls a rule "Cop"). ["Style Cops"](https://docs.rubocop.org/rubocop/cops_style.html) provide one of several settings.
 So, we encounter many many warnings when we introduce RuboCop. The cause is a mismatch between the RuboCop's default settings and your project's coding style.
 
 In the configuration of MeowCop, almost all stylistic rules are disabled. Because such rules are almost specific for your project.
-If you want, you can use RuboCop as a **Linter** without many noisy warnings.
+If you want, you can use RuboCop as a **linter** without many noisy warnings.
 
 In contrast, if you want to use RuboCop as a style checker, we recommend [Gry](https://github.com/pocke/gry).
 
@@ -25,13 +25,13 @@ gem 'meowcop'
 
 And then execute:
 
-```sh
+```console
 $ bundle install
 ```
 
 Or install it yourself as:
 
-```sh
+```console
 $ gem install meowcop
 ```
 
@@ -39,7 +39,7 @@ $ gem install meowcop
 
 MeowCop provides a CLI tool to initialize `.rubocop.yml`. See below:
 
-```ruby
+```console
 $ meowcop init
 Meow! .rubocop.yml has been created successfully.
 
@@ -62,13 +62,13 @@ See this [example](examples/.rubocop.yml).
 
 Just execute RuboCop with `.rubocop.yml` configured by MeowCop:
 
-```sh
+```console
 $ bundle exec rubocop
 ```
 
 Or,
 
-```sh
+```console
 $ rubocop
 ```
 
@@ -78,7 +78,7 @@ After checking out the repo, run `bin/setup` to install dependencies. You can al
 
 To install this gem onto your local machine, run:
 
-```sh
+```console
 $ bundle exec rake install
 ```
 
@@ -90,7 +90,7 @@ To release a new version,
 4. Commit the updated files with the following message: `Release x.y.z`
 5. Run the following command, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
-    ```sh
+    ```console
     $ bundle exec rake release
     ```
 
