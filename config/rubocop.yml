@@ -29,6 +29,8 @@ Lint/EmptyWhen:
   Enabled: false
 Lint/Loop:
   Enabled: false
+Lint/RedundantCopDisableDirective:
+  Enabled: false
 Lint/UnusedBlockArgument:
   Enabled: false
 Lint/UnusedMethodArgument:
