@@ -1,4 +1,2 @@
-== test/smoke/test.rb ==
-C:  5: 10: Style/StringHashKeys: Prefer symbols instead of strings as hash keys. (https://rubystyle.guide#symbols-as-keys)
 
-1 file inspected, 1 offense detected, 1 offense auto-correctable
+1 file inspected, no offenses detected
