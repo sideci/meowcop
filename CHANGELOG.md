@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 3.0.0 (2020-11-18)
+
 - [#113](https://github.com/sider/meowcop/pull/113): Simplify config file via RuboCop 1.0 (**breaking**)
 
 ## 2.15.1 (2020-10-22)
