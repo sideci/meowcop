@@ -52,7 +52,7 @@ Metrics/BlockLength:
     # Rails
     - 'config/routes.rb'
 Metrics/BlockNesting:
-  Max: 7
+  Max: 10
 Metrics/ClassLength:
   Enabled: false
 Metrics/CyclomaticComplexity:
