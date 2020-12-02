@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- [#117](https://github.com/sider/meowcop/pull/117): Loosen the max value of `Metrics/BlockNesting`
+
 ## 3.0.0 (2020-11-18)
 
 - [#113](https://github.com/sider/meowcop/pull/113): Simplify config file via RuboCop 1.0 (**breaking**)

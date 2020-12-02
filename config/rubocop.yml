@@ -51,6 +51,8 @@ Metrics/BlockLength:
     - 'spec/**/*.rb'
     # Rails
     - 'config/routes.rb'
+Metrics/BlockNesting:
+  Max: 10
 Metrics/ClassLength:
   Enabled: false
 Metrics/CyclomaticComplexity:
