@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 3.0.1 (2020-12-02)
+
 - [#117](https://github.com/sider/meowcop/pull/117): Loosen the max value of `Metrics/BlockNesting`
 
 ## 3.0.0 (2020-11-18)
