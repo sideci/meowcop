@@ -1,4 +1,4 @@
 == test/smoke/test.rb ==
-C:  7:  1: Style/ZeroLengthPredicate: Use empty? instead of length == 0.
+C:  7:  1: [Correctable] Style/ZeroLengthPredicate: Use empty? instead of length == 0.
 
 1 file inspected, 1 offense detected, 1 offense auto-correctable
