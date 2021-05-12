@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- [#121](https://github.com/sider/meowcop/pull/121): Drop support for Ruby 2.4
+
 ## 3.0.1 (2020-12-02)
 
 - [#117](https://github.com/sider/meowcop/pull/117): Loosen the max value of `Metrics/BlockNesting`
