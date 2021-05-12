@@ -1,5 +1,4 @@
-$LOAD_PATH.unshift File.expand_path('lib', __dir__)
-require 'meowcop/version'
+require_relative "lib/meowcop/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "meowcop"
@@ -14,7 +13,7 @@ Gem::Specification.new do |spec|
 
   spec.metadata = {
     "bug_tracker_uri" => "https://github.com/sider/meowcop/issues",
-    "changelog_uri" => "https://github.com/sider/meowcop/blob/HEAD/CHANGELOG.md",
+    "changelog_uri"   => "https://github.com/sider/meowcop/blob/HEAD/CHANGELOG.md",
     "source_code_uri" => "https://github.com/sider/meowcop"
   }
 
