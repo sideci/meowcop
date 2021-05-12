@@ -84,7 +84,7 @@ $ bundle exec rake install
 
 To release a new version,
 
-1. Move to the **master** branch and fetch the latest revision. E.g. `git checkout master && git pull`
+1. Move to the `main` branch and fetch the latest revision. E.g. `git checkout main && git pull`
 2. Update the version number in [`version.rb`](lib/meowcop/version.rb).
 3. Update the [changelog](CHANGELOG.md).
 4. Commit the updated files with the following message: `Release x.y.z`
