@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 3.1.0 (2021-05-13)
+
 - [#121](https://github.com/sider/meowcop/pull/121): Drop support for Ruby 2.4
 - [00608a5](https://github.com/sider/meowcop/commit/00608a559a2acd363047b7f64b1e6d1c692e1b34): Rename main branch from `master` to `main`
 
